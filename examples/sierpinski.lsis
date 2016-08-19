@@ -1,0 +1,8 @@
+axiom A
+rule A +B-A-B+
+rule B -A+B+A-
+tg A forward 5
+tg B forward 5
+tg + turn -60
+tg - turn 60
+
